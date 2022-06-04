@@ -1,0 +1,330 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(215, 245, 242);
+    display:flexbox;
+}
+.header {
+    position:relative;
+    height: 65px;
+}
+.alura {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.alura:hover {
+    opacity: 75%;
+}
+
+.main_index {
+    height: 558px;
+}
+.iniciar {
+    background-color: rgb(215, 245, 242);
+    height: 279px;
+}
+
+.boton_iniciar{
+    background-color: rgb(35, 78, 126);
+    width: 200px;
+    height: 75px;
+    border: rgb(35, 78, 126);
+    border-style: solid;
+    border-radius: 20px;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    position: relative;
+    top: 70%;
+    bottom: 70%;
+    left: 42%;
+    right: 42%;
+}
+.boton_iniciar:hover{
+   background:transparent;
+   color: rgb(35, 78, 126);
+   border-width: 2.5px;
+   font-size: 16pt;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.palabras {
+    background-color: rgb(215, 245, 242);
+    height: 279px;
+}
+.boton_agregar_palabra{
+    background-color: rgba(255, 255, 255);
+    width: 200px;
+    height: 55px;
+    position:relative;
+    border-style: solid;
+    border: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: rgb(35, 78, 126);
+    font-size: 12pt;
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+    left: 42%;
+    right: 42%;
+}
+
+.boton_agregar_palabra:hover{
+    background: transparent;
+    border: rgb(35, 78, 126);
+    border-style: solid;
+    border-width: 2.5px;
+    color: rgb(35, 78, 126);
+    font-size: 13pt;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+
+.dev_info {
+    background-color: rgb(215, 245, 242);
+    display: flexbox;
+    overflow: hidden;
+}
+
+.gitHub{
+    width:50%;
+    float: left;
+}
+
+ .logo-gitHub {
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 97%;
+ }
+
+.logo-gitHub:hover {
+    opacity: 75%;
+}
+
+.linkedIn {
+    width: 50%;
+    margin-left: 50%;
+}
+
+ .logo-linkedIn {
+    display: inline-block;
+    width: 2.7%;
+    height: 2.7%;
+ }
+
+ .logo-linkedIn:hover {
+    opacity: 75%;
+}
+
+.datos {
+    text-align: center;
+    font-size: 10pt;
+}
+
+/*Acá inicia el CSS del archivo palabras.html*/
+.main_2 {
+    height: 510px;
+}
+.text_box {
+    width: 100%; 
+    height: 40%;
+    margin-top: 2%;
+}
+.palabra_nueva {
+    width: 50%;
+    height: 20%;
+    text-align: left;
+    text-overflow: ellipsis;
+    text-size-adjust: 16pt;
+    margin-left: 25%;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 19pt;
+    color: rgb(35, 78, 126);
+}
+
+.palabra_nueva:active {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Acá empieza el CSS del archivo nombre.html*/
+
+.alerta {
+    height: 28%;
+}
+
+.alerta_caracteres {
+    position: relative;
+    width:75%;
+    top: 85%;
+    left: 25%;
+    font-size: 11pt;
+}
+
+.botones {
+    display: flexbox;
+    overflow: hidden;
+    margin-left: 25%;
+}
+
+.boton_1 {
+    float: left;
+    margin-right: 10%;
+    height: 55px;
+    width: 300px;
+    border-radius: 30px;
+    border: transparent;
+    font-size: 15pt;
+    background-color: rgb(35, 78, 126);
+    color: white;
+}
+
+.boton_1:hover {
+    cursor: pointer;
+    border-color: rgb(35, 78, 126);
+    border-style: solid;
+    background-color: transparent;
+    color: rgb(35, 78, 126);
+}
+
+
+.boton_2 {
+    float: left;
+    height: 55px;
+    width: 300px;
+    border-radius: 30px;
+    border-color: rgb(35, 78, 126);
+    border-width: thin;
+    font-size: 15pt;
+    background-color:white;
+    transition: 0.5s;
+    color: rgb(35, 78, 126);
+}
+
+.boton_2:hover {
+    cursor: pointer;
+    border-color: rgb(236, 0, 98);
+    border-style: solid;
+    background-color: rgb(236, 0, 98);
+    color: white;
+    transition: 0.5s;
+
+}
+
+/*Acá empieza el CSS del archivo ahorcado.html*/
+.hidden{
+    display: none;
+}
+.main_horca {
+    height: 558px;
+    display: flexbox;
+    overflow: hidden;
+}
+.horca {
+
+    float: left;
+}
+
+.caja_mensaje{
+    width: 20%;
+    height: 60%;
+    float: left;
+ }
+
+.mensajes{
+    height: max-content;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    padding: 2%;
+    line-height: 2em;
+    color: #5F6A6A;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+
+.buttons {
+    width: 100%;
+    height: 21%;
+    display: flexbox;
+}
+
+.btn_newGame{
+    float: left;
+    height: 50%;
+    width: 22.33%;
+    border-radius: 30px;
+    font-size: 125%;
+    border: rgb(35, 78, 126);
+    background-color:rgb(35, 78, 126);
+    transition: 0.5s;
+    margin-top: 1%;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    color: white;
+
+}
+
+.btn_newGame:hover {
+    cursor: pointer;
+    border-color: rgb(35, 78, 126);
+    border-style: solid;
+    background-color: transparent;
+    color: rgb(35, 78, 126);
+}
+
+.cambiar_victima{
+    float: left;
+    height: 50%;
+    width: 22.33%;
+    border-radius: 30px;
+    border: none;
+    font-size: 125%;
+    background-color:rgb(35, 78, 126);
+    transition: 0.5s;
+    margin-top: 1%;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    color: white;
+}
+
+.cambiar_victima:hover {
+    cursor: pointer;
+    border-color: rgb(35, 78, 126);
+    border-style: solid;
+    background-color: transparent;
+    color: rgb(35, 78, 126);
+}
+
+.btn_desistir{
+    float: left;
+    height: 50%;
+    width: 22.33%;
+    border-radius: 30px;
+    border-color: rgb(35, 78, 126);
+    border-style: solid;
+    font-size: 125%;
+    background-color:white;
+    transition: 0.5s;
+    margin-top: 1%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    color: rgb(35, 78, 126);
+}
+
+.btn_desistir:hover {
+    cursor: pointer;
+    border-color: rgb(236, 0, 98);
+    border-style: solid;
+    background-color: rgb(236, 0, 98);
+    color: white;
+    transition: 0.5s;
+
+}
