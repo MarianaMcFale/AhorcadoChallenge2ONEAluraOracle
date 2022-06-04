@@ -16,7 +16,7 @@ function emprolijar_nombre () {
 function almacenar_nombre() {
     nombre_ahorcado = emprolijar_nombre();
     if (nombre_ahorcado.length === 0){
-        nombre_ahorcado = "Horcaditus"
+        nombre_ahorcado = "Pimpón"
     localStorage.setItem("nombre_ahorcado",nombre_ahorcado);
     }else if(nombre_ahorcado.length != 0){
         localStorage.setItem("nombre_ahorcado",nombre_ahorcado);
@@ -30,7 +30,7 @@ function almacenar_nombre() {
 }
 
 function saltear_nombre(){
-    nombre_ahorcado = "Horcaditus";
+    nombre_ahorcado = "Pimpón";
     localStorage.setItem("nombre_ahorcado",nombre_ahorcado);
     almacenar_session();
     window.location.href="ahorcado.html"
